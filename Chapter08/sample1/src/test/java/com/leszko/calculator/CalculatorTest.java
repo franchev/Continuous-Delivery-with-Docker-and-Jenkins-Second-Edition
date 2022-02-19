@@ -2,6 +2,10 @@ package com.leszko.calculator;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
+/** Represents a test calculator.
+ *  * @author teacher
+ *    * @version 1.0
+ *     */
 public class CalculatorTest {
      private Calculator calculator = new Calculator();
 
