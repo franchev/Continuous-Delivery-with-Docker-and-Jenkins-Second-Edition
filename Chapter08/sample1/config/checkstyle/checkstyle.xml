@@ -4,8 +4,8 @@
      "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 
 <module name="Checker">
-     <module name="ConstantName"/>
      <module name="TreeWalker">
+          <module name="ConstantName"/>
           <module name="JavadocType">
                <property name="scope" value="public"/>
           </module>
